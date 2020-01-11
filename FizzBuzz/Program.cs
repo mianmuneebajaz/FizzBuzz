@@ -17,7 +17,7 @@ namespace FizzBuzz
             }
         }
 
-        public static string CalculateFizzBuzz(int inpInt32) => inpInt32 
+        public static string CalculateFizzBuzz(int inpInt32) => inpInt32 switch
         {
            //To do : Fix itt
             _ when inpInt32 % 3 == 0 => "Fizz",
